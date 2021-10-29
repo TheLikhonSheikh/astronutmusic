@@ -11,21 +11,21 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+I can play music in your group's voice call. Developed by [Likhon](https://t.me/GodfatherMob).
 
-Add me to your group and play music freely!**
+Add me and My Support User @RaizaCM to your group and play music freely!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/Infinity-Bots/GroupMusicPlayerBot")
+                        "🛠 Owner 🛠", url="https://t.me/GodFatherMob")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "💬 Group", url="https://t.me/likhonyt"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "🔊 Channel", url="https://t.me/likhonsheikhyt"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "🔊 Channel", url="https://t.me/likhonsheikhyt")
                 ]
             ]
         )
